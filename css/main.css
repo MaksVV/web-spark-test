@@ -1,0 +1,188 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+.btn-load {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 111px;
+    height: 28px;
+    margin-top: 16px;
+    border: 1px solid #929292;
+    box-sizing: border-box;
+    border-radius: 14px;
+    color: #929292;
+    font-size: 11px;
+    line-height: 13px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn {
+    border: none;
+    background: none;
+    height: 22px;
+    margin: 18px 0 23px 17px;
+}
+.btn.active {
+    color: white;
+}
+.datepicker input {
+    width: 162px;
+    height: 27px;
+    margin-right: 22px;
+    padding-left: 8px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #636264;
+    background: url(/img/bx_bx-calendar.svg) no-repeat center right;
+    background-color: #fff;
+    
+
+}
+
+.content-box .date p {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 11px 0 0;
+}
+#wrapper {
+    width: 100%;
+    height: 1195px;
+    overflow-y: hidden;
+    background: url(/img/bg_1.png) top left no-repeat, url(/img/bg_2.png) bottom 48px right no-repeat;
+    padding-bottom: 48px;
+}
+.container {
+    width: 100%;
+    max-width: 836px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 172px;
+    background: rgba(255, 255, 255, 0.67);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12), inset 0px 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.header-holder {
+    display: flex;
+}
+
+.header-holder ul{
+    list-style: none;
+    margin: 33px 0 0 86px;
+}
+.header-holder li{
+    display: flex;
+    align-items: center;
+}
+.header-holder li .text-box{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #3D8EDA;
+    border: 1px solid #3D8EDA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 7px 12px;
+    margin-left: 17px;
+}
+
+.header-holder li p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 25px;
+}
+.header-holder h1 {
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.header-holder .logo img {
+    margin: 4px 24px 0 54px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -4px -4px;
+}
+
+.card-wrapper{
+    width: 24%;
+    background: #fff;
+    margin: 4px 4px;
+}
+
+.card-wrapper > img{
+    width: 100%;
+}
+
+.card-wrapper .card-item, .card-text{
+    display: flex;
+    margin: 12px;
+}
+.card-wrapper .card-item li{
+    width: 50%;
+}
+
+.card-wrapper ul{
+    list-style: none;
+    padding: 0;
+}
+
+.card-wrapper li > ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.card-wrapper span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card-wrapper li > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-top: 6px;
+}
+
+.card-wrapper li > ul > li img{
+    margin-right: 6px;
+}
+
+.card-wrapper .card-text {
+    justify-content: space-between;
+    margin: 26px 12px 18px 12px;
+}
+
+.card-wrapper .card-text p{
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.card-wrapper .card-text .date{
+    font-size: 12px;
+    line-height: 14px;
+}

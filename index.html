@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monblanproject</title>
+    <link href="https://unpkg.com/js-datepicker/dist/datepicker.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="container">
+                <div class="header-holder">
+                    <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+                    <ul class="content-box">
+                        <li>
+                            <h1>monblanproject</h1>
+                            <div class="text-box">Start on  17-02-2016</div>
+                        </li>
+                        <li>
+                            <p><b>870</b> posts</p>
+                            <p><b>11,787</b> followers</p>
+                            <p><b>112</b> following</p>
+                        </li>
+                        <li class="date">
+                            <p>Date</p>
+                            <div class="datepicker">
+                                <input class="date-picker-element1 icon" type="text" placeholder="from"> 
+                            </div>
+                            <div class="datepicker">
+                                <input class="date-picker-element2" type="text" placeholder="to">  
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <div class="container">
+                <div class="main-wrapper">
+                    <div id="buttons">
+                        <button class="btn active" onclick="gridView()"><img src="img/colum_icon.svg"/></button> 
+                        <button class="btn" onclick="listView()"><img src="img/list_icon.svg"/></i></button>
+                    </div>
+                    <div class="cards">
+                        <div class="card-wrapper">
+                            <img src="img/big_img_1.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <img src="img/big_img_2.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <img src="img/big_img_3.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <img src="img/big_img_4.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <img src="img/big_img_5.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <img src="img/big_img_6.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <img src="img/big_img_7.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <img src="img/big_img_8.jpg">
+                            <ul class="card-item">
+                                <li>
+                                    <span>Today</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>9-08-2016</span>
+                                    <ul>
+                                        <li><img src="/img/ci_heart-fill.svg" alt="heart">128</li>
+                                        <li><img src="/img/ic_round-mode-comment.svg" alt="comment">31</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="card-text">
+                                <p>Image upload</p>
+                                <p class="date">11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-load">LOAD MORE</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://unpkg.com/js-datepicker@5.16.0/dist/datepicker.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
