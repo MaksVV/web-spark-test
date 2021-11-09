@@ -30,13 +30,19 @@ body{
 
 .btn {
     border: none;
+    outline: none;
+    margin: 18px 0 20px 21px;
+    color: #C8C7C7;
+    cursor: pointer;
     background: none;
-    height: 22px;
-    margin: 18px 0 23px 17px;
+}
+
+.btn i {
+    font-size: 30px;
 }
 
 .btn.active {
-    color: white;
+    color: #3D8EDA;
 }
 
 .datepicker input {
@@ -52,8 +58,6 @@ body{
     color: #636264;
     background: url(/img/bx_bx-calendar.svg) no-repeat center right;
     background-color: #fff;
-    
-
 }
 
 .content-box .date p {
@@ -131,14 +135,18 @@ body{
     flex-wrap: wrap;
     margin: -4px -4px;
 }
-
+.cards:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .card-wrapper{
     width: 24%;
     background: #fff;
     margin: 4px 4px;
 }
 
-.card-wrapper > img{
+.card-wrapper > img {
     width: 100%;
 }
 

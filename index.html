@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>monblanproject</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/js-datepicker/dist/datepicker.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -29,7 +30,7 @@
                         <li class="date">
                             <p>Date</p>
                             <div class="datepicker">
-                                <input class="date-picker-element1 icon" type="text" placeholder="from"> 
+                                <input class="date-picker-element1" type="text" placeholder="from"> 
                             </div>
                             <div class="datepicker">
                                 <input class="date-picker-element2" type="text" placeholder="to">  
@@ -43,12 +44,12 @@
             <div class="container">
                 <div class="main-wrapper">
                     <div id="buttons">
-                        <button class="btn active" onclick="gridView()"><img src="img/colum_icon.svg"/></button> 
-                        <button class="btn" onclick="listView()"><img src="img/list_icon.svg"/></button>
+                        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i></button> 
+                        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i></button>
                     </div>
                     <div class="cards">
                         <div class="card-wrapper">
-                            <img src="img/big_img_1.jpg">
+                            <img src="img/big_img_1.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
@@ -71,7 +72,7 @@
                             </div>
                         </div>
                         <div class="card-wrapper">
-                            <img src="img/big_img_2.jpg">
+                            <img src="img/big_img_2.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
@@ -94,7 +95,7 @@
                             </div>
                         </div>
                         <div class="card-wrapper">
-                            <img src="img/big_img_3.jpg">
+                            <img src="img/big_img_3.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
@@ -117,7 +118,7 @@
                             </div>
                         </div>
                         <div class="card-wrapper">
-                            <img src="img/big_img_4.jpg">
+                            <img src="img/big_img_4.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
@@ -140,7 +141,7 @@
                             </div>
                         </div>
                         <div class="card-wrapper">
-                            <img src="img/big_img_5.jpg">
+                            <img src="img/big_img_5.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
@@ -163,7 +164,7 @@
                             </div>
                         </div>
                         <div class="card-wrapper">
-                            <img src="img/big_img_6.jpg">
+                            <img src="img/big_img_6.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
@@ -186,7 +187,7 @@
                             </div>
                         </div>
                         <div class="card-wrapper">
-                            <img src="img/big_img_7.jpg">
+                            <img src="img/big_img_7.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
@@ -209,7 +210,7 @@
                             </div>
                         </div>
                         <div class="card-wrapper">
-                            <img src="img/big_img_8.jpg">
+                            <img src="img/big_img_8.jpg" id="cardImg" alt="cards-img">
                             <ul class="card-item">
                                 <li>
                                     <span>Today</span>
