@@ -1,10 +1,12 @@
 ::-webkit-scrollbar {
     width: 0px;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
 }
+
 .btn-load {
     position: relative;
     left: 50%;
@@ -19,20 +21,24 @@ body{
     font-size: 11px;
     line-height: 13px;
 }
+
 #buttons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+
 .btn {
     border: none;
     background: none;
     height: 22px;
     margin: 18px 0 23px 17px;
 }
+
 .btn.active {
     color: white;
 }
+
 .datepicker input {
     width: 162px;
     height: 27px;
@@ -55,6 +61,7 @@ body{
     line-height: 19px;
     margin: 0 11px 0 0;
 }
+
 #wrapper {
     width: 100%;
     min-height: 1195px;
@@ -62,6 +69,7 @@ body{
     background: url(/img/bg_1.png) top left no-repeat, url(/img/bg_2.png) bottom 48px right no-repeat;
     padding-bottom: 48px;
 }
+
 .container {
     width: 100%;
     max-width: 836px;
@@ -82,10 +90,12 @@ body{
     list-style: none;
     margin: 33px 0 0 86px;
 }
+
 .header-holder li{
     display: flex;
     align-items: center;
 }
+
 .header-holder li .text-box{
     font-size: 13px;
     line-height: 15px;
@@ -103,6 +113,7 @@ body{
     line-height: 16px;
     margin-right: 25px;
 }
+
 .header-holder h1 {
     margin: 0;
     font-family: Montserrat;
@@ -135,6 +146,7 @@ body{
     display: flex;
     margin: 12px;
 }
+
 .card-wrapper .card-item li{
     width: 50%;
 }
@@ -188,10 +200,12 @@ body{
     .header-holder ul {
         margin-left: 60px;
     }
+
     .cards {
         justify-content: center;
         padding: 0 20px;
     }
+
     .card-wrapper {
         width: 32%;
     }
@@ -201,18 +215,23 @@ body{
     .card-wrapper {
         width: 47%;
     }
+
     #buttons {
         justify-content: center;
     }
+
     #header {
         height: 140px;
     }
+
     .header-holder {
         justify-content: center;
     }
+
     .header-holder ul {
         margin: 15px 0 0 0;
     }
+
     .header-holder .logo img {
         width: 100px;
         margin-top: 15px;
@@ -224,35 +243,44 @@ body{
         flex-direction: column;
         align-items: center;
     }
+
     .header-holder li:nth-child(2) {
         flex-direction: row;
     }
+
     .header-holder .date{
         margin-left: -100px;
     }
+
     .header-holder .date div {
         margin-top: 10px;
     }
+
     #header {
         height: 240px;
     }
+
     .header-holder ul{
         padding: 0;
     }
+
     .header-holder li p {
         font-size: 13px;
         line-height: 14px;
         margin-right: 10px;
     }
+
     .header-holder li .text-box {
         width: 142px;
         margin-left: 0px;
     }
+
     .header-holder .logo img {
         width: 90px;
         margin-top: 15px;
         margin-left: 0px;
     }
+    
     .card-wrapper {
         width: 80%;
     }
